@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="Add Context to the navbar">
-      <change afterPath="$PROJECT_DIR$/src/Components/MainPage/MainPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="Add the base of the MainPage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +38,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Documents\react\ReactMeals1\src\Images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701112295790</updated>
       <workItem from="1701112298518" duration="7778000" />
-      <workItem from="1701127628741" duration="630000" />
+      <workItem from="1701127628741" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="Add Context to the navbar">
       <option name="closed" value="true" />
@@ -61,7 +62,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701127452502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add the base of the MainPage">
+      <option name="closed" value="true" />
+      <created>1701128414897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701128414897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add the base of the MainPage">
+      <option name="closed" value="true" />
+      <created>1701128566379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701128566379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Context to the navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Context to the navbar" />
+    <MESSAGE value="Add the base of the MainPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the base of the MainPage" />
   </component>
 </project>
