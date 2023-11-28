@@ -12,10 +12,11 @@ const Navbar = () => {
     const togglePopup = () => {
         setIsPopupOpen(!isPopupOpen); // Toggles popup visibility
     };
+
     // Close popup when clicked outside of it
     useEffect(() => {
         const closePopup = (event) => {
-            if (event.target.className === 'popup-background') {
+            if (event.target.className === 'popup') {
                 setIsPopupOpen(false);
             }
         };
@@ -46,7 +47,7 @@ const Navbar = () => {
                     </div>
 
                 </button>
-                <PopUp isOpen={isPopupOpen} togglePopup={togglePopup}/>
+                {isPopupOpen && <PopUp isOpen={isPopupOpen} togglePopup={togglePopup} />}
             </div>
         </nav>
 

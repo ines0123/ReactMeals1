@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="Add the foodlist to the MainPage">
+    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="a fix push">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Description/Description.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Description/Description.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Description/Description.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Description/Description.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FoodList/FoodList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FoodList/FoodList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainPage/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/PopUp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp/PopUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/PopUp.js" afterDir="false" />
     </list>
@@ -25,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/feature/food-list" />
+    <option name="BRANCH" value="origin/feature/popup" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
