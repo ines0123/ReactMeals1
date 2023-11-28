@@ -1,6 +1,6 @@
 .custom-navbar {
   height: 60px; /* Ajustez la hauteur selon vos besoins */
-  color: #800000;
+  background-color: #800000;
 }
 
 .custom-navbar .navbar-brand {
@@ -19,6 +19,7 @@
   margin-left: 5px; /* Déplacer légèrement vers la gauche */
   margin-right: 150px;
   height:40px;
+  border: hidden;
   
 }
 
@@ -32,6 +33,7 @@
   padding: 5px 8px; /* Add padding for spacing */
   border-radius: 3px; /* Optional: Make it slightly rounded */
   margin-left: 5px; /* Optional: Add margin to the left of the items count */
+    background-color: #800000;
 }
 
 .cart-title {

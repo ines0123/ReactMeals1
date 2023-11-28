@@ -20,19 +20,20 @@ function FoodItem({foodItem}){
     <React.Fragment>
     <div className="food-item">
       <div className="food-group left">
-      <h3>{foodItem.name}</h3>
-      <h3 className="food-price">{foodItem.price + "$"} </h3>
+      <h4>{foodItem.name}</h4>
       <p>{foodItem.description}</p>
+        <h4 className="food-price">{foodItem.price + "$"} </h4>
       </div>
      
       <div className="food-group right">
-      <p><strong>Amount : </strong>{foodItem.amount}</p>
+      <p><strong>Amount : </strong>
       <input
           className="food-input"
           type="number"
           value={inputAmount}
           onChange={handleInputChange}
         />
+      </p>
       <button className="food-button" onClick={AddAmount} >+Add</button>
       </div>
     </div>

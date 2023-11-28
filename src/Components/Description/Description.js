@@ -4,7 +4,9 @@ function Description() {
     <div className="head">
       <p>
         <b style={{ fontSize: 25 }}>Delicious Food,Delivered To You </b>
+
         <p>
+          <br/>
           choose your favorite meal from our broad selection of available meals
           and enjoy a delicious lunch or dinner at home.
         </p>
