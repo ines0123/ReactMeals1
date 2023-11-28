@@ -1,40 +1,48 @@
-import React from "react";
-import FoodItemCart from "./FoodItemCart";
+import React, { useContext } from "react";
 import "./PopUp.css";
-function Popup(props) {
-  const foods = props.list;
+import { FoodContext } from "../../Contexts/FoodContext";
+import FoodItemCart from "./FoodItemCart";
+function Popup() {
+  const foods = useContext(FoodContext).foodItems;
+  const setFoods = useContext(FoodContext).setFoodItems;
   const Addamount = (food) => {
     const index = foods.indexOf(food);
     const copyfoods = [...foods];
     copyfoods[index].amount = parseInt(copyfoods[index].amount) + 1;
-    props.setFoods(copyfoods.filter((food) => food.amount > 0));
+    setFoods(copyfoods.filter((food) => food.amount > 0));
   };
   const Subamount = (food) => {
     const index = foods.indexOf(food);
     const copyfoods = [...foods];
     copyfoods[index].amount = parseInt(copyfoods[index].amount) - 1;
-    props.setFoods(copyfoods.filter((food) => food.amount > 0));
+    setFoods(copyfoods.filter((food) => food.amount > 0));
   };
+  const totalprice = () =>
+  {
+    let sum = 0;
+    foods.map((food) => (sum += food.amount*food.price));
+    return sum;
+  }
   return (
     <>
       <div className="popup">
         <div className="popup_inner">
           <h1 className="popup_inneritem">Cart</h1>
           <ul className="popup_inneritem">
-            {props.list.map((food) => (
+            {foods.map((food) => (
+              food.amount > 0 &&  
               <>
                 <FoodItemCart
-                  key={food.name}
-                  name={food.name}
-                  price={food.price}
-                  amount={food.amount}
+                  food = {food}
                   onAdd={() => Addamount(food)}
                   onRemove={() => Subamount(food)}
+
                   className="popup_inneritem"
                 />
               </>
             ))}
           </ul>
+          <h2 className="popup_inneritem">Total : {totalprice()}</h2>
           <input type="button" value="Checkout" className="popup_inneritem" />
         </div>
       </div>

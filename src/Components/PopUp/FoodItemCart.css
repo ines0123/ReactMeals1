@@ -1,0 +1,151 @@
+.food-button{
+    background-color:brown;
+    border-radius: 5px;
+    color : white;
+    border: none;
+    padding: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  
+  .food-item{
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .food-price{
+    color: goldenrod;
+  }
+  
+  .food-group{
+    display: flex;
+    flex-direction: column;
+    gap : 5px;
+  }
+  
+  .food-group.left{
+    align-items: flex-start;
+  }
+  
+  .food-group.right{
+    align-items: right;
+  }
+  
+  .food-input{
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .food-group h3,
+  .food-group p {
+    margin: 0; 
+  }
+  
+  .horizontal-line {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 8px; 
+  }
+  .addbutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+    .addbutton:hover {
+        background-color: #3e8e41;
+    }
+.removebutton {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+    .removebutton:hover {
+        background-color: #da190b;
+    }
+  .food-item-cart{
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .food-price-cart{
+    color: goldenrod;
+  }
+  
+  .food-group-cart{
+    display: flex;
+    flex-direction: column;
+    gap : 5px;
+  }
+  
+  .food-group-cart.left{
+    align-items: flex-start;
+  }
+  
+  .food-group-cart.right{
+    align-items: right;
+  }
+  
+  .food-input-cart{
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .food-group-cart h3,
+  .food-group-cart p {
+    margin: 0; 
+  }
+  
+  .horizontal-line-cart {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 8px; 
+  }
+  .addbutton-cart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+    .addbutton-cart:hover {
+        background-color: #3e8e41;
+    }
