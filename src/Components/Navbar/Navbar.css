@@ -1,0 +1,50 @@
+.custom-navbar {
+  height: 60px; /* Ajustez la hauteur selon vos besoins */
+  background-color: #800000;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 18px; /* Ajustez la taille de la police pour le titre ReactMeals */
+  font-weight: bold;
+  align-items: center;
+  margin-left: 100px;
+  padding: 10px ;
+}
+
+.cart-container {
+  /*margin-left: auto; /* Push the cart container to the right */
+  background-color: rgba(0, 0, 0, 0.5); /* Gris sombre transparent */
+  padding: 10px ; /* Ajouter un peu de padding pour agrandir le conteneur */
+  border-radius: 15px; /* Bordures arrondies */
+  margin-left: 5px; /* Déplacer légèrement vers la gauche */
+  margin-right: 150px;
+  height:40px;
+  border: hidden;
+  
+}
+
+.cart-icon {
+  width: 30px; /* Set the width of the cart icon */
+  height:40px;
+  margin-right: 5px; /* Add margin between the icon and items count */
+}
+
+.cart-items {
+  padding: 5px 8px; /* Add padding for spacing */
+  border-radius: 3px; /* Optional: Make it slightly rounded */
+  margin-left: 5px; /* Optional: Add margin to the left of the items count */
+    background-color: #800000;
+}
+
+.cart-title {
+  color: white; /* Texte blanc */
+  font-size: 13px;
+  
+}
+
+.cart-items-container {
+  padding: 8px 5px; /* Ajouter un peu de marge intérieure */
+  border-radius: 10px; /* Bordures arrondies */
+  margin-left: 1px; /* Ajouter une marge à gauche */
+  margin-right: 5px
+}

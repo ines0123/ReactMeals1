@@ -1,0 +1,10 @@
+.head{
+    border-radius: 25px;
+    background: #333332;
+    padding: 15px;
+    width: 700px;
+    height: 215px;
+    text-align:center;
+    color: white;
+    margin:auto;
+  }
