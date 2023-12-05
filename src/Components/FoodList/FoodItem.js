@@ -32,6 +32,7 @@ function FoodItem({foodItem}){
           type="number"
           value={inputAmount}
           onChange={handleInputChange}
+          min={0}
         />
       </p>
       <button className="food-button" onClick={AddAmount} >+Add</button>

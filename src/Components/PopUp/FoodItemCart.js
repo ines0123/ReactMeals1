@@ -12,8 +12,8 @@ function FoodItemCart(props) {
                     <h5>{foodItem.name}</h5>
                     <h5 className="food-price">{foodItem.price + "$"} </h5>
                 </div>
-                <div className="food-group center">
-                    <h5>{foodItem.amount}</h5>
+                <div className="food-group center bouton-x">
+                    <h6>x{foodItem.amount}</h6>
                 </div>
                 <div className="food-group right">
                     <button onClick={onRemove} className="addbutton"><strong>-</strong></button>

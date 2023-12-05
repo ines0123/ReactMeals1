@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="a fix push">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6ad2d7cb-0636-432f-9f10-856d66826703" name="Changes" comment="adding the cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FoodList/FoodItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/FoodItemCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp/PopUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/PopUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PopUp/PopUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PopUp/PopUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,9 @@
       <updated>1701112295790</updated>
       <workItem from="1701112298518" duration="7778000" />
       <workItem from="1701127628741" duration="7118000" />
+      <workItem from="1701643993072" duration="1455000" />
+      <workItem from="1701800505865" duration="3165000" />
+      <workItem from="1701804146274" duration="584000" />
     </task>
     <task id="LOCAL-00001" summary="Add Context to the navbar">
       <option name="closed" value="true" />
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701130478676</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding the cart">
+      <option name="closed" value="true" />
+      <created>1701186160385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701186160385</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +157,7 @@
     <MESSAGE value="Add the description the MainPage" />
     <MESSAGE value="Add the NavBar to the MainPage" />
     <MESSAGE value="Add the foodlist to the MainPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the foodlist to the MainPage" />
+    <MESSAGE value="adding the cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the cart" />
   </component>
 </project>
